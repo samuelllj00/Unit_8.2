@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #000000;
+}
+h1,p {color:#FFFFFF}
+
+}
+
+nav{
+	background-color:#0000000;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+li {
+	display: inline;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#000000;
+}
+
+li {float:left;
+}
+
+li a {
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #F5090C;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height:0;
+	font-size:0;
+}
+
+div {
+	font-size: 1.2em;
+	width 46%;
+	padding: 2%;
+	display:inline-block;
+}
+#about {
+	float:right;
+}
+
+footer {
+	color: #FFF9F9;
+	text-align: left;
+}
+
+@media screen and (device-width: 320px) and device-height: 568px) and (-webkit-device-pixel-ratio:2)
